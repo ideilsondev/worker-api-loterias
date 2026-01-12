@@ -13,7 +13,7 @@ export default {
     if (pathParts.length === 0) {
       return Response.json({
         name: "API Loterias",
-        version: "1.0.0",
+        version: "1.1.6",
         endpoints: {
           v1: {
             usage: "/v1/:loteria ou /v1/full/:loteria",
