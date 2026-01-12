@@ -1,0 +1,8 @@
+name = "caixa-api-bridge"
+main = "worker.js"
+compatibility_date = "2026-01-12"
+
+[vars]
+DEBUG_MODE = "true"
+CAIXA_API_URL = "https://servicebus2.caixa.gov.br/portaldeloterias/api"
+# O TOKENS e AUTH_TOKEN você deve configurar direto no painel por segurança
